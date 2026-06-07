@@ -7,3 +7,6 @@
 [submodule "Library-Management-System"]
 	path = Library-Management-System
 	url = https://github.com/Suyashgopal/Library-Management-System.git
+[submodule "core-java-practice"]
+	path = core-java-practice
+	url = https://github.com/Suyashgopal/core-java-practice.git

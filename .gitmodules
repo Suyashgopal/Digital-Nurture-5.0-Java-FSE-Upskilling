@@ -1,0 +1,6 @@
+[submodule "Frontend_basics"]
+	path = Frontend_basics
+	url = https://github.com/Suyashgopal/Frontend_basics.git
+[submodule "ANSI-SQL-practice"]
+	path = ANSI-SQL-practice
+	url = https://github.com/Suyashgopal/ANSI-SQL-practice.git

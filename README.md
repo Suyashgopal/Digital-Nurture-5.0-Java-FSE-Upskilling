@@ -252,9 +252,7 @@ SOURCE filename.sql;
 
 This repository documents practical implementation of Java Full Stack Engineering concepts with emphasis on:
 
-- Writing maintainable code
-- Understanding backend development fundamentals
-- Designing relational databases
+- Writing maintainable code and understanding backend development fundamentals
 - Building responsive web interfaces
 - Applying full-stack development workflows
 
@@ -262,8 +260,6 @@ This repository documents practical implementation of Java Full Stack Engineerin
 
 ## Author
 
-**Suyash Gopal**
+**Suyash Gopal Chamoli**
 
-Java Full Stack Development  
-Backend Engineering  
-Database Systems
+ 

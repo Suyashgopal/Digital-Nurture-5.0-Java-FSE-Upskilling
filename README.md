@@ -326,10 +326,6 @@ The repository contains my personal implementations, practice solutions, and pro
 
 ## Author
 
-**Suyash Gopal**
-
-Java Full Stack Development  
-Backend Engineering  
-Database Systems
+**Suyash Gopal Chamoli**
 
  

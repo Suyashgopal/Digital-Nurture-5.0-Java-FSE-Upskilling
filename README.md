@@ -1,86 +1,203 @@
 <div align="center">
 
-#  Digital Nurture 5.0 - Java FSE Upskilling
+# Digital Nurture 5.0 - Java FSE Upskilling
 
-### Java Full Stack Development | Backend • Database • Frontend
+**Java Full Stack Engineering Practice Repository**
 
-A structured Java Full Stack Engineering repository containing hands-on implementations, SQL practice, and frontend development fundamentals.
-
-![Java](https://img.shields.io/badge/Java-17+-orange)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
-![Frontend](https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JS-green)
+![Java](https://img.shields.io/badge/Java-17%2B-orange)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)
+![Git](https://img.shields.io/badge/Version%20Control-Git-red)
 
 </div>
 
 ---
 
-## 📌 Overview
+## Overview
 
-This repository contains practical implementations completed under the **Digital Nurture 5.0 Java FSE Upskilling Program**.
+This repository contains structured Java Full Stack Engineering practice work completed as part of the Digital Nurture 5.0 Java FSE Upskilling Program.
 
-The focus is on building strong fundamentals in:
-
-- Backend Development using Java
-- Database Design and SQL
-- Frontend Development
-- Problem Solving
-- Full Stack Engineering Concepts
+The repository focuses on backend development fundamentals, relational database design, and frontend development concepts through practical implementations.
 
 ---
 
-# 📚 Modules
+## Repository Structure
 
-## Quick Navigation
+```text
+Digital-Nurture-5.0-Java-FSE-Upskilling
 
-| Module | Focus Area |
-|---|---|
-| ☕ Core Java Practice | Java Programming & Backend Fundamentals |
-| 🗄 ANSI SQL Practice | MySQL Queries & Database Concepts |
-| 📘 Library Management System | SQL Database Project |
-| 🌐 Frontend Basics | HTML, CSS, JavaScript & Bootstrap |
+├── core-java-pratice
+│   └── Java fundamentals and backend concepts
+│
+├── ANSI-SQL-practice
+│   └── SQL queries and database problem solving
+│
+├── Library-Management-System
+│   └── MySQL database application project
+│
+├── Frontend_basics
+│   └── HTML, CSS, JavaScript and Bootstrap practice
+│
+└── README.md
+```
 
 ---
 
-# ☕ Core Java Practice
+# Modules
 
-Covers Java programming concepts from fundamentals to modern Java features.
+## 1. Core Java Practice
+
+Implementation of Java programming concepts ranging from language fundamentals to advanced features.
+
+### Covered Concepts
+
+**Java Fundamentals**
+- Syntax and program structure
+- Data types and variables
+- Operators
+- Conditional statements
+- Loops
+- Methods
+- Arrays
+- Strings
+
+**Object-Oriented Programming**
+- Classes and objects
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+- Interfaces
+
+**Advanced Java**
+- Exception handling
+- Collections Framework
+- Lambda expressions
+- Streams API
+- File handling
+- Multithreading
+- Concurrency utilities
+- Reflection
+- JDBC
+- Java 17+ features
+
+---
+
+## 2. ANSI SQL using MySQL
+
+SQL practice focused on relational database concepts and query development.
+
+### Covered Concepts
+
+- Database creation
+- Table design
+- Constraints
+- Data retrieval
+- Filtering and sorting
+- Aggregate functions
+- Grouping operations
+- Joins
+- Subqueries
+- Data modification
+- Indexing
+
+Includes SQL problem-solving practice from platforms such as HackerRank and LeetCode.
+
+---
+
+## 3. Library Management System
+
+A database-driven project designed to demonstrate practical MySQL implementation.
+
+### Features
+
+- Book records management
+- Member information management
+- Borrow and return transactions
+- Book availability tracking
+- Transaction history
+- Late fee calculation
+
+### Database Design
+
+```text
+Categories
+
+    |
+    
+Books
+
+    |
+    
+Transactions
+
+    |
+
+Members
+```
 
 ### Concepts Implemented
 
-- Java Basics
-- Variables & Data Types
-- Operators
-- Control Flow
-- Loops
-- Methods & Recursion
-- Arrays
-- Strings
-- Object-Oriented Programming
-
-### Advanced Java
-
-- Exception Handling
-- Collections Framework
-- Lambda Expressions
-- Streams API
-- File Handling
-- Multithreading
-- Concurrency Utilities
-- Reflection API
-- Java 17 / Java 21 Features
-- JDBC
-- Networking
+- Relational database modelling
+- Primary and foreign key relationships
+- Normalization
+- CRUD operations
+- SQL joins
+- Stored procedures
+- Triggers
 
 ---
 
-## Running Java Programs
+## 4. Frontend Development
 
-Clone the repository:
+Implementation of frontend development fundamentals.
+
+### Covered Concepts
+
+**HTML5**
+- Semantic structure
+- Forms
+- Tables
+- Web APIs
+
+**CSS3**
+- Selectors
+- Styling
+- Box model
+- Responsive design
+
+**JavaScript**
+- Language fundamentals
+- Functions
+- Objects
+- DOM manipulation
+- Events
+
+**Bootstrap 5**
+- Grid system
+- Components
+- Utilities
+- Responsive layouts
+
+---
+
+# Running the Code
+
+## Clone Repository
 
 ```bash
-git clone https://github.com/Suyashgopal/Digital-Nurture-5.0-Java-FSE-Upskilling.git
+git clone --recursive https://github.com/Suyashgopal/Digital-Nurture-5.0-Java-FSE-Upskilling.git
 ```
+
+Navigate into the repository:
+
+```bash
+cd Digital-Nurture-5.0-Java-FSE-Upskilling
+```
+
+---
+
+## Run Java Programs
 
 Navigate:
 
@@ -94,166 +211,59 @@ Compile:
 javac FileName.java
 ```
 
-Run:
+Execute:
 
 ```bash
 java FileName
 ```
 
-Example:
+---
+
+## Run SQL Files
+
+Open MySQL:
 
 ```bash
-javac OOPDemo.java
-
-java OOPDemo
+mysql -u username -p
 ```
 
----
-
-# 🗄 ANSI SQL using MySQL
-
-SQL practice focused on database fundamentals and query optimization.
-
-### Concepts Covered
-
-- Database Creation
-- Tables
-- Constraints
-- SELECT Queries
-- Filtering & Sorting
-- Aggregate Functions
-- GROUP BY / HAVING
-- Joins
-- Subqueries
-- CRUD Operations
-- Indexes
-
-Also includes:
-
-- HackerRank SQL Practice
-- LeetCode SQL Problems
-
-Example:
+Execute:
 
 ```sql
-SELECT 
-    department,
-    COUNT(*) AS employees
-FROM employee
-GROUP BY department;
+SOURCE filename.sql;
 ```
 
 ---
 
-# 📘 Library Management System
+## Technology Stack
 
-A MySQL database project demonstrating real-world database design.
-
-## Features
-
-✔ Manage Books  
-✔ Manage Members  
-✔ Track Borrowing Records  
-✔ Maintain Availability  
-✔ Generate Transaction History  
-✔ Calculate Late Fees  
-
----
-
-## Database Architecture
-
-```text
-Categories
-     |
-     |
-   Books
-     |
-     |
-Transactions
-     |
-     |
- Members
-```
-
----
-
-## Database Concepts Used
-
-- Relational Database Design
-- Primary Keys
-- Foreign Keys
-- Normalization
-- Joins
-- Stored Procedures
-- Triggers
-- Date Functions
-
----
-
-# 🌐 Frontend Development
-
-Frontend fundamentals covering responsive UI development.
-
-## Technologies
-
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap 5
-
-## Concepts
-
-- Semantic HTML
-- Styling & Layouts
-- DOM Manipulation
-- Events
-- Responsive Design
-- Bootstrap Components
-- Bootstrap Grid System
-
----
-
-# 🛠 Tech Stack
-
-| Category | Technologies |
-|-|-|
-| Programming | Java |
+| Area | Technologies |
+|---|---|
+| Programming Language | Java |
 | Database | MySQL |
 | Frontend | HTML5, CSS3, JavaScript |
-| Framework | Bootstrap 5 |
-| Tools | Git, GitHub, IntelliJ IDEA, VS Code |
+| UI Framework | Bootstrap 5 |
+| Database Connectivity | JDBC |
+| Version Control | Git, GitHub |
 
 ---
 
-# 📂 Repository Structure
+## Purpose
 
-```text
-Digital-Nurture-5.0-Java-FSE-Upskilling
+This repository documents practical implementation of Java Full Stack Engineering concepts with emphasis on:
 
-│
-├── core-java-pratice
-│
-├── ANSI-SQL-practice
-│
-├── Library-Management-System
-│
-├── Frontend_basics
-│
-└── README.md
-```
+- Writing maintainable code
+- Understanding backend development fundamentals
+- Designing relational databases
+- Building responsive web interfaces
+- Applying full-stack development workflows
 
 ---
 
-# 🎯 Objective
+## Author
 
-To strengthen Java Full Stack Engineering skills through practical implementation of backend development, database management, and frontend technologies.
+**Suyash Gopal**
 
----
-
-<div align="center">
-
-### Suyash Gopal
-
-Java Full Stack Development • Backend Engineering • Database Systems
-
-</div>
+Java Full Stack Development  
+Backend Engineering  
+Database Systems

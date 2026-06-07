@@ -258,8 +258,78 @@ This repository documents practical implementation of Java Full Stack Engineerin
 
 ---
 
+## References and Learning Resources
+
+The concepts implemented in this repository were practiced using the learning path and reference materials provided as part of the **Cognizant Digital Nurture 5.0 Java FSE Upskilling Program**.
+
+Additional documentation and open learning resources used:
+
+### Core Java
+
+- Oracle Java Documentation  
+  https://docs.oracle.com/en/java/
+
+- GeeksforGeeks Java Programming  
+  https://www.geeksforgeeks.org/java/
+
+- W3Schools Java Tutorial  
+  https://www.w3schools.com/java/
+
+
+---
+
+### ANSI SQL using MySQL
+
+- MySQL Official Documentation  
+  https://dev.mysql.com/doc/
+
+- W3Schools SQL Tutorial  
+  https://www.w3schools.com/sql/
+
+- GeeksforGeeks SQL  
+  https://www.geeksforgeeks.org/sql-tutorial/
+
+- HackerRank SQL Practice  
+  https://www.hackerrank.com/domains/sql
+
+- LeetCode Database Problems  
+  https://leetcode.com/problemset/database/
+
+---
+
+### Frontend Development
+
+- HTML5 Documentation  
+  https://developer.mozilla.org/en-US/docs/Web/HTML
+
+- CSS Documentation  
+  https://developer.mozilla.org/en-US/docs/Web/CSS
+
+- JavaScript Documentation  
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+- Bootstrap 5 Documentation  
+  https://getbootstrap.com/docs/5.0/
+
+- W3Schools Web Development References  
+  https://www.w3schools.com/
+
+---
+
+## Program Acknowledgement
+
+This repository was created while completing the **Digital Nurture 5.0 Java Full Stack Engineer (FSE) Upskilling Program by Cognizant**.
+
+The repository contains my personal implementations, practice solutions, and projects developed while following the recommended learning modules.
+
+---
+
 ## Author
 
-**Suyash Gopal Chamoli**
+**Suyash Gopal**
+
+Java Full Stack Development  
+Backend Engineering  
+Database Systems
 
  

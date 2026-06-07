@@ -4,3 +4,6 @@
 [submodule "ANSI-SQL-practice"]
 	path = ANSI-SQL-practice
 	url = https://github.com/Suyashgopal/ANSI-SQL-practice.git
+[submodule "Library-Management-System"]
+	path = Library-Management-System
+	url = https://github.com/Suyashgopal/Library-Management-System.git
